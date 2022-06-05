@@ -1,11 +1,6 @@
 <script>
 	import Illustration from '$components/illustration.svelte';
 	import Question from '$components/Question.svelte';
-
-	let index = 0;
-	let openOneQuestion = ({ target }) => {
-		index = target.open ? index : 0;
-	};
 </script>
 
 <div
